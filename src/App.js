@@ -1,7 +1,7 @@
 import { useReducer, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Navbar from "./components/Navbar";
-import Todo from "./Todo";
+import Todo from "./components/Todo";
 
 export const ACTIONS = {
   ADD_TODO: "add-todo",
